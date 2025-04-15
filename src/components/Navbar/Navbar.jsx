@@ -9,8 +9,8 @@ import logo from '../../assets/10363995.png'
 const Navbar = () => {
   return (
     <>
-    <nav className='shadow-md bg-white'>
-      <div className="container flex justify-between items-center py-2" >
+    <nav className='fixed top-0 left-0 w-full z-40 bg-white'>
+      <div className="container flex justify-between items-center " >
         {/* logo section */}
         <div className='text-2xl flex items-center gap-2 '>
         <img src={logo} alt="Logo" className="w-20  object-contain" />
